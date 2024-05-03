@@ -1,0 +1,41 @@
+ErrorDocument 403 /404.html
+ErrorDocument 404 /404.html
+
+DirectoryIndex page42733230.html
+
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME} /robots.txt
+RewriteCond "%{DOCUMENT_ROOT}/robots_%{HTTP_HOST}.txt" -f
+RewriteRule ^(.*)$ robots_%{HTTP_HOST}.txt [NC,L]
+RewriteRule ^demo$ page36227732.html [NC]
+RewriteRule ^demo/$ page36227732.html [NC]
+
+RewriteRule ^ro$ page41603353.html [NC]
+RewriteRule ^ro/$ page41603353.html [NC]
+
+RewriteRule ^ro-e-factura$ page42651263.html [NC]
+RewriteRule ^ro-e-factura/$ page42651263.html [NC]
+
+RewriteRule ^en$ page42733230.html [NC]
+RewriteRule ^en/$ page42733230.html [NC]
+
+RewriteRule ^dalle$ page42829782.html [NC]
+RewriteRule ^dalle/$ page42829782.html [NC]
+
+RewriteRule ^companiemd$ page42830969.html [NC]
+RewriteRule ^companiemd/$ page42830969.html [NC]
+
+RewriteRule ^sales$ page42944027.html [NC]
+RewriteRule ^sales/$ page42944027.html [NC]
+
+RewriteRule ^seoheap$ page42983909.html [NC]
+RewriteRule ^seoheap/$ page42983909.html [NC]
+
+RewriteRule ^tech-efactura-ro$ page43281586.html [NC]
+RewriteRule ^tech-efactura-ro/$ page43281586.html [NC]
+
+RewriteRule ^saga$ page43377765.html [NC]
+RewriteRule ^saga/$ page43377765.html [NC]
+
+
